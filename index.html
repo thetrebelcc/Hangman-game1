@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    
+
+<script src="game.js"></script>
+    <title>Hangman Zoo Edition</title>
+</head>
+
+<body>
+
+    <header class="p-3 mb-2 bg-primary text-white">
+        <div class="container-fluid">
+  <h1>Hangman Game! Zoo Edition</h1>
+</header>
+
+        <div class="row fade-in bottom-margin">
+            <section class="col-md-12 text-right">
+                <p>Press any letter key to play!</p>
+                <p>Wins: <span id="wins">0</span></p>
+            </section>
+        </div>
+        <div class="row fade-in bottom-margin">
+            <section class="col-md-5">
+                <div class="bottom-margin"></div>
+            </section>
+            <section class="col-md-7">
+                <p class="text-right">Guesses remaining: <span id="remaining">10</span></p>
+                <div class="right-margin"></div>
+                <div id="gameArea" class="text-right"></div>
+                <div class="bottom-margin"></div>
+                <div id="incorrectGuesses"></div>
+            </section>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
